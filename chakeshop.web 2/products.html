@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        #container {
+            width: 1200px;
+            height: 1390px;
+            border-radius: 20px;
+            margin: auto;
+        }
+
+        img.logo {
+            width: 298px;
+            height: 71px;
+            display: block;
+            border-top-left-radius: 20px;
+        }
+
+        nav {
+            width: 1200px;
+            height: 40px;
+            background-color: #f97b8e;
+            font-size: 16px;
+            text-align: right;
+        }
+
+        nav a {
+            display: inline-block;
+            /* Ensures links respect text alignment */
+            margin-left: 30px;
+            padding-top: 20px;
+            color: #360109;
+        }
+
+        header {
+            width: 1200px;
+            height: 360px;
+            background-color: #650211;
+            font-size: 30px;
+            color: #fbbf92;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            color: #c42c2c;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #c53f3f;
+
+            text-align: left;
+            /* font-size: medium; */
+            color: #c03d3d;
+            margin-bottom: 10px;
+        }
+
+        table {
+
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100,
+        }
+
+        td,
+        th {
+            border: 1px solid;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(49, 12, 12);
+        }
+
+      
+        footer {
+            width: 1200px;
+            height: 100px;
+            background-color: #dbf2fc;
+            text-align: center;
+        
+        }
+        
+
+        h1 {
+            text-align: left;
+            color: #9e182c;
+            font-size: xx-large;
+        }
+
+        .cake-products {
+            margin-top: 30px;
+            margin-bottom: 10px;
+
+        }
+
+        .products {
+            width: 920px;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .order {
+            margin-top: 30px;
+            margin-bottom: 30;
+        }
+        .allergy{
+            margin-top: 50px;
+            margin-bottom: 10px;
+
+        }
+
+        .s1,
+        .s4 {
+            margin-left: 120px;
+        }
+        .allergy th{
+           background-color: rgb(183, 200, 230);
+        }
+         label {
+            display: inline-block;
+            width: 150px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <a href="index.html"><img class="logo" src="small/logo.png"
+                alt="Cake shop logo links to the home page"></a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Our Cakes</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <header><img src="header_img/cream_cake2.png" alt="header_imgcream_cake2"></header>
+        <section class="cake-products">
+            <h1>Cake for Sale</h1>
+            <br><div class="products">
+                <img src="small/strawberryCake300.jpg" alt="strawberryCake300">
+                <img src="small/lemonCake300.jpg" alt="lemonCake300">
+                <img src="small/orangeCake300.jpg" alt="orangeCake300">
+                <img src="small/tiramisu300.jpg" alt="tiramisu300">
+                <img src="small/strawberryCheeseCake300.jpg" alt="strawberryCheeseCake300">
+                <img src="small/macaron300.jpg" alt="macaron300">
+            </div>
+        </section>
+        <section class="prices">
+            <h2>Prices</h2>
+            <table>
+                <tr>
+                    <th>Cake Size</th>
+                    <th>Suitable For</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Small</td>
+                    <td>8-10 People</td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>Medium</td>
+                    <td>10-12 People</td>
+                    <td>$60.00</td>
+                </tr>
+                <tr>
+                    <td>Large</td>
+                    <td>12-16 people</td>
+                    <td>$100.00</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="allergy">
+            
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Allergy statement to display</th>
+                    
+                <tr>
+                    <td>Brownies</td>
+                    <td>Contains dairy, nuts and eggs</td>
+
+                </tr>
+                <tr>
+                    <td>Flavoured cakes</td>
+                    <td>Contains gluten, dairy, nuts and eggs. Strawberry cakes contain strawberries.</td>
+        
+                </tr>
+                <tr>
+                    <td>Cheesecakes</td>
+                    <td>Contains gluten and dairy </td>
+                </tr>
+                <tr>
+                    <td>Cupcakes</td>
+                    <td>Contains gluten, dairy, nuts and eggs </td>
+                </tr>
+                <tr>
+                    <td>Cupcakes</td>
+                    <td>Contains gluten, dairy, nuts and eggs </td>
+                </tr>
+                <tr>
+                    <td>Speciality cakes</td>
+                    <td>Can be made to match dietary requirements </td>
+                </tr>
+                <tr>
+                    <td>Macarons</td>
+                    <td>Contains gluten, dairy, nuts and eggs </td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="order">
+            <h3>How to order</h3>
+            <p>If you're intereted in ordering a cake for your special occassion, Let us know!</p>
+        
+
+        <br><form action="action_page.php">
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="" value=""><br><br>
+            <label for="lname">Email address:</label>
+            <input type="text" id="lname" name="lname" placeholder="" value=""><br><br>
+            <label for="fname">Phone Number:</label>
+            <input type="text" id="fname" name="fname" placeholder="" value=""><br><br>
+            <label for="fname">The type of Cake required:</label>
+            <input type="text" id="fname" name="fname" placeholder="" value=""><br><br>
+            <label for="lname">Date required:</label>
+            <input type="text" id="lname" name="lname" placeholder="" value=""><br><br>
+        </form>
+
+        <footer>
+            <br> Designed by Huma Alizada &copy; 2025 
+        </footer>
+    </div>
+</body>
+
+</html>
